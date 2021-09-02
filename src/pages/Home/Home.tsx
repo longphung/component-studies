@@ -5,7 +5,7 @@ import { StyledWrapper, StyledLink } from './Home.styled';
 const Home = () => {
   return (
     <StyledWrapper>
-      <StyledLink to={RouterConstants.select}>Select component</StyledLink>
+      <StyledLink className="w-16" to={RouterConstants.select}>Select component</StyledLink>
       <StyledLink to={RouterConstants.calendar}>Calendar component</StyledLink>
     </StyledWrapper>
   );
