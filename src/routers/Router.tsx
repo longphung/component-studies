@@ -1,4 +1,4 @@
-import { Home } from "pages";
+import { Calendar, Home, Select } from "pages";
 import React from "react";
 // import PropTypes from 'prop-types'
 import { Route, Switch } from "react-router-dom";
@@ -7,8 +7,14 @@ import { RouterConstants } from "./RouterConstants";
 const Router = () => {
   return (
     <Switch>
-      <Route path={RouterConstants.main}>
+      <Route exact path={RouterConstants.main}>
         <Home />
+      </Route>
+      <Route exact path={RouterConstants.select}>
+        <Select />
+      </Route>
+      <Route exact path={RouterConstants.calendar}>
+        <Calendar />
       </Route>
     </Switch>
   );
