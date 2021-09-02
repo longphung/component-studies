@@ -1,3 +1,6 @@
 [submodule "packages"]
 	path = packages
 	url = git@github.com:longphung/components-package.git
+[submodule "src/packages"]
+	path = src/packages
+	url = git@github.com:longphung/components-package.git
