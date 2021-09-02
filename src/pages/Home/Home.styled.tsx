@@ -9,7 +9,7 @@ export const StyledWrapper = styled.div`
 
 export const StyledLink = styled(Link)`
   display: block;
-  margin: 16px 0;
+  margin: 16px;
   text-decoration: none;
   box-shadow: ${Shadow.StickyTab};
   border-radius: 16px;
