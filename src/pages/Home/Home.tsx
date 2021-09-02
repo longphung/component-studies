@@ -1,6 +1,5 @@
 import React from 'react';
 import { RouterConstants } from 'routers/RouterConstants';
-
 import { StyledWrapper, StyledLink } from './Home.styled';
 
 const Home = () => {
